@@ -1,0 +1,223 @@
+@less: '../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+ul {
+	margin: 0px;
+
+	li {
+		a {
+			font-weight: bold;
+		}
+	}
+}
+
+.example {
+	background-color: #eee;
+	.wizard {
+		.steps {
+			padding: 0px;
+			width: 990px;
+			
+			.step {
+				height: auto;
+
+				.caption {
+					font-weight: bold;
+				}
+				h4 {
+					color: #1ba1e2;
+					font-weight: 800;
+				}
+				.schedule-content {
+					padding: 5px 10px 15px 10px;
+				}
+
+				.form-body {
+					padding-top: 20px;
+
+					.form-group {
+
+						#competition_name {
+							width: 320px;
+						}
+
+						#event_editable_1 {
+
+							height: 300px;
+							overflow: auto;
+							display: block;
+
+							input {
+								border-color: #e5e5e5;
+							}
+						}
+
+						#additional_events {
+							display: none;
+						}
+					}
+
+					.team-snippet {
+						display: none;
+						padding: 10px 30px;
+						border: 1px solid #ccc;
+						margin-bottom: 15px;
+
+						&.active {
+							display: block;
+						}
+
+						.snippet-alert {
+							padding: 10px;
+							text-align: center;
+    						-webkit-animation: ani-flash 4s ease infinite;
+    						animation: ani-flash 4s ease infinite;
+						}
+
+						.snippet {
+							border-radius: 5px;
+							border: 1px solid #999;
+							background-color: #ccc;
+							padding: 5px 10px;
+						    margin: 5px;
+						    white-space: nowrap;
+						    font-weight: bold;
+						    font-family: WKLGM;
+						    line-height: 20px;
+						    display: inline-block;
+						    cursor: pointer;
+						}
+					}
+
+					.team-block {
+						padding: 15px;
+
+						.block {
+							border: 1px solid #ccc;
+							.team-block-header {
+								height: 40px;
+								padding: 5px 5px;
+
+								.team-name-label {
+									margin-left: 5%;
+									margin-top: 7px;
+								}
+
+								input.team-name {
+									width: 40px;
+									height: 25px;
+								}
+							}
+							.team-block-body {
+								min-height: 150px;
+
+								&.ui-state-active {
+									background-color: #ddd;
+								}
+
+								.snippet-wrapper {
+									margin-left: 0px;
+									padding: 5px;
+
+									.snippet {
+										margin: 3px;
+										border-radius: 5px;
+										border: 1px solid #999;
+										background-color: #ccc;
+										padding: 2px;
+									}
+								}
+							}
+						}
+
+						#team_0 {
+							.team-block-header {
+								background-color: #3598dc;
+							}
+						}
+						#team_1 {
+							.team-block-header {
+								background-color: #e74f5b;
+							}
+						}
+						#team_2 {
+							.team-block-header {
+								background-color: #8f44ad;
+							}
+						}
+						#team_3 {
+							.team-block-header {
+								background-color: #20e5a2;
+							}
+						}
+						#team_4 {
+							.team-block-header {
+								background-color: #f6d04a;
+							}
+						}
+						#team_5 {
+							.team-block-header {
+								background-color: #f570f0;
+							}
+						}
+					}
+
+					#calendar {
+						.fc-content {
+
+							.fc-event {
+								cursor: default;
+							}
+
+							table.fc-border-separate {
+								td.fc-day {
+									.fc-day-number {
+										cursor: pointer;
+										background-color: #e74f5b;
+										color: #fff;
+										padding: 5px;
+										border-radius: 8px;
+									}
+									
+								}
+							}
+						}
+					}
+
+					.proxy {
+						display: none;
+					}
+				}
+
+				#create_new_competition {
+					padding-top: 0px;
+				}
+			}
+		}
+
+		#messagesModal {
+
+			.schedule-name {
+				label {
+					text-transform: capitalize;
+					color: #428bca;
+					font-weight: bold;
+					font-size: 20px;
+				}
+			}
+			#schedule_edit_table {
+				.center {
+					text-align: center;
+				}
+			}
+			#schedule_addition_table {
+				.center {
+					text-align: center;
+				}
+			}
+		}
+	}
+}

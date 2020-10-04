@@ -1,0 +1,154 @@
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+ul {
+  margin: 0px;
+}
+ul li a {
+  font-weight: bold;
+}
+.example {
+  background-color: #eee;
+}
+.example .wizard .steps {
+  padding: 0px;
+  width: 990px;
+}
+.example .wizard .steps .step {
+  height: auto;
+}
+.example .wizard .steps .step .caption {
+  font-weight: bold;
+}
+.example .wizard .steps .step h4 {
+  color: #1ba1e2;
+  font-weight: 800;
+}
+.example .wizard .steps .step .schedule-content {
+  padding: 5px 10px 15px 10px;
+}
+.example .wizard .steps .step .form-body {
+  padding-top: 20px;
+}
+.example .wizard .steps .step .form-body .form-group #competition_name {
+  width: 320px;
+}
+.example .wizard .steps .step .form-body .form-group #event_editable_1 {
+  height: 300px;
+  overflow: auto;
+  display: block;
+}
+.example .wizard .steps .step .form-body .form-group #event_editable_1 input {
+  border-color: #e5e5e5;
+}
+.example .wizard .steps .step .form-body .form-group #additional_events {
+  display: none;
+}
+.example .wizard .steps .step .form-body .team-snippet {
+  display: none;
+  padding: 10px 30px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+.example .wizard .steps .step .form-body .team-snippet.active {
+  display: block;
+}
+.example .wizard .steps .step .form-body .team-snippet .snippet-alert {
+  padding: 10px;
+  text-align: center;
+  -webkit-animation: ani-flash 4s ease infinite;
+  animation: ani-flash 4s ease infinite;
+}
+.example .wizard .steps .step .form-body .team-snippet .snippet {
+  border-radius: 5px;
+  border: 1px solid #999;
+  background-color: #ccc;
+  padding: 5px 10px;
+  margin: 5px;
+  white-space: nowrap;
+  font-weight: bold;
+  font-family: WKLGM;
+  line-height: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+.example .wizard .steps .step .form-body .team-block {
+  padding: 15px;
+}
+.example .wizard .steps .step .form-body .team-block .block {
+  border: 1px solid #ccc;
+}
+.example .wizard .steps .step .form-body .team-block .block .team-block-header {
+  height: 40px;
+  padding: 5px 5px;
+}
+.example .wizard .steps .step .form-body .team-block .block .team-block-header .team-name-label {
+  margin-left: 5%;
+  margin-top: 7px;
+}
+.example .wizard .steps .step .form-body .team-block .block .team-block-header input.team-name {
+  width: 40px;
+  height: 25px;
+}
+.example .wizard .steps .step .form-body .team-block .block .team-block-body {
+  min-height: 150px;
+}
+.example .wizard .steps .step .form-body .team-block .block .team-block-body.ui-state-active {
+  background-color: #ddd;
+}
+.example .wizard .steps .step .form-body .team-block .block .team-block-body .snippet-wrapper {
+  margin-left: 0px;
+  padding: 5px;
+}
+.example .wizard .steps .step .form-body .team-block .block .team-block-body .snippet-wrapper .snippet {
+  margin: 3px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  background-color: #ccc;
+  padding: 2px;
+}
+.example .wizard .steps .step .form-body .team-block #team_0 .team-block-header {
+  background-color: #3598dc;
+}
+.example .wizard .steps .step .form-body .team-block #team_1 .team-block-header {
+  background-color: #e74f5b;
+}
+.example .wizard .steps .step .form-body .team-block #team_2 .team-block-header {
+  background-color: #8f44ad;
+}
+.example .wizard .steps .step .form-body .team-block #team_3 .team-block-header {
+  background-color: #20e5a2;
+}
+.example .wizard .steps .step .form-body .team-block #team_4 .team-block-header {
+  background-color: #f6d04a;
+}
+.example .wizard .steps .step .form-body .team-block #team_5 .team-block-header {
+  background-color: #f570f0;
+}
+.example .wizard .steps .step .form-body #calendar .fc-content .fc-event {
+  cursor: default;
+}
+.example .wizard .steps .step .form-body #calendar .fc-content table.fc-border-separate td.fc-day .fc-day-number {
+  cursor: pointer;
+  background-color: #e74f5b;
+  color: #fff;
+  padding: 5px;
+  border-radius: 8px;
+}
+.example .wizard .steps .step .form-body .proxy {
+  display: none;
+}
+.example .wizard .steps .step #create_new_competition {
+  padding-top: 0px;
+}
+.example .wizard #messagesModal .schedule-name label {
+  text-transform: capitalize;
+  color: #428bca;
+  font-weight: bold;
+  font-size: 20px;
+}
+.example .wizard #messagesModal #schedule_edit_table .center {
+  text-align: center;
+}
+.example .wizard #messagesModal #schedule_addition_table .center {
+  text-align: center;
+}

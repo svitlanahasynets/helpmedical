@@ -1,0 +1,145 @@
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+.gray-stars {
+  font-size: 18px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.gray-stars > span {
+  color: #CCC;
+}
+.gray-stars .red-stars {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.gray-stars .red-stars span {
+  color: #337ab7;
+}
+.gray-stars span {
+  padding: 0px 1px 0px 1px;
+  display: inline-block;
+}
+.star-marks-overlay {
+  visibility: hidden;
+  display: inline-block;
+}
+.star-marks {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.prev-page-section {
+  text-align: right;
+  margin-bottom: 10px;
+}
+.prev-page-section .prev-page-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #991c08;
+}
+.portlet .portlet-title {
+  background-color: #cc2409 !important;
+}
+.portlet .portlet-title .caption {
+  font-family: wkpukgul;
+  font-size: 20px;
+  font-weight: normal;
+}
+.portlet .portlet-body {
+  padding: 25px !important;
+}
+.portlet .portlet-body .ordinary-value {
+  font-weight: bold;
+  margin-left: 5px;
+  font-family: 'WKLCHBO';
+}
+.portlet .portlet-body .client-score {
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+.portlet .portlet-body .client-score .score-wrap {
+  float: left;
+}
+.portlet .portlet-body .client-score .score-wrap .gray-stars {
+  font-size: 16px;
+}
+.portlet .portlet-body .client-score .score-wrap .gray-stars span {
+  float: none;
+}
+.portlet .portlet-body .client-score .score-wrap:hover .client-score-desc {
+  display: block !important;
+  border: solid 1px #337ab7;
+  position: absolute;
+  left: 40px;
+  border-radius: 4px;
+  padding: 5px 10px;
+  background-color: #ddd;
+  z-index: 999;
+  top: 22px;
+  white-space: nowrap;
+}
+.portlet .portlet-body .files {
+  border: 2px solid #d9c3c3;
+  padding: 5px;
+  padding-bottom: 15px;
+}
+.portlet .portlet-body .files .carousel-indicators {
+  bottom: -25px;
+}
+.portlet .portlet-body .files .carousel-indicators li {
+  width: 18px;
+  height: 18px;
+  margin: 0 9px 0 0;
+  background: transparent;
+  border: solid 2px #c9cdce;
+  border-radius: 18px !important;
+  z-index: 9999 !important;
+}
+.portlet .portlet-body .files .carousel-indicators li.active {
+  background: #6f7a7c;
+  border-color: #9ea7a9;
+}
+.portlet .portlet-body .files .carousel-inner .item {
+  display: none;
+}
+.portlet .portlet-body .files .carousel-inner .active {
+  display: block;
+}
+.portlet .portlet-body .files .carousel-inner span {
+  width: 320px;
+  height: 240px;
+  white-space: nowrap;
+  margin: 10px auto;
+  background: #ddd;
+  padding: 10px 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.portlet .portlet-body .files .carousel-inner span img {
+  width: 320px;
+  overflow: hidden;
+  height: 100%;
+  margin: 0px auto;
+  -webkit-transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+}
+.portlet .portlet-body .files .carousel-inner span img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.portlet .portlet-body .files .carousel-inner span video {
+  width: 100%;
+  height: 210px;
+}
+.portlet .portlet-body .files .no-image img {
+  height: 100%;
+  margin: 0px auto;
+}

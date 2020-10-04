@@ -1,0 +1,142 @@
+@less: '../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+@import '@{less}/stars.less';
+
+.prev-page-section {
+	text-align: right;
+	margin-bottom: 10px;
+
+	.prev-page-link {
+		font-size: 18px;
+		font-weight: bold;
+		color: #991c08;
+	}
+}
+
+.portlet {
+	.portlet-title {
+		background-color: #cc2409 !important;
+
+		.caption {
+			font-family: wkpukgul;
+			font-size: 20px;
+			font-weight: normal;
+		}
+	}
+
+	.portlet-body {
+		padding: 25px !important;
+
+		.ordinary-value {
+			font-weight: bold;
+			margin-left: 5px;
+			font-family: 'WKLCHBO';
+		}
+
+		.client-score {
+			float: left;
+			position: relative;
+			cursor: pointer;
+
+			.score-wrap {
+				float: left;
+
+				.gray-stars {
+					font-size: 16px;
+					span {
+						float: none;
+					}
+				}
+
+				&:hover .client-score-desc {
+					display: block !important;
+					border: solid 1px #337ab7; 
+					position: absolute;
+					left: 40px;
+					border-radius: 4px; 
+					padding: 5px 10px;
+					background-color: #ddd;
+					z-index: 999;
+					top: 22px;
+					white-space: nowrap;
+				}
+			}
+		}
+
+		.files {
+			border: 2px solid #d9c3c3;
+			padding: 5px;
+			padding-bottom: 15px;
+
+			.carousel-indicators {
+				bottom: -25px;
+
+				li {
+					width: 18px;
+				    height: 18px;
+				    margin: 0 9px 0 0;
+				    background: transparent;
+				    border: solid 2px #c9cdce;
+				    border-radius: 18px !important;
+				    z-index: 9999 !important;
+				}
+
+				li.active {
+					background: #6f7a7c;
+	    			border-color: #9ea7a9;
+				}
+			}
+
+			.carousel-inner {
+				
+				.item {
+					display: none;
+				}
+				.active {
+					display: block;
+				}
+
+				span {
+					width: 320px;
+					height: 240px;
+					white-space: nowrap;
+					margin: 10px auto;
+					background: #ddd;
+				    padding: 10px 25px;
+				    overflow: hidden;
+					text-overflow: ellipsis;
+
+					img {
+						width: 320px;
+						overflow: hidden;
+						height: 100%;
+						margin: 0px auto;
+						-webkit-transition: transform .2s ease-out;
+    					transition: transform .2s ease-out;
+
+						&:hover {
+							-webkit-transform: scale(1.3);
+    						transform: scale(1.3);
+						}
+					}
+
+					video {
+						width: 100%;
+						height: 210px;
+					}
+				}
+			}
+
+			.no-image {
+				img {
+					height: 100%;
+					margin: 0px auto;
+				}
+			}
+		}
+	}
+}

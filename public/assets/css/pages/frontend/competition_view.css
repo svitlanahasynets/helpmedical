@@ -1,0 +1,195 @@
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+.gray-stars {
+  font-size: 18px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.gray-stars > span {
+  color: #CCC;
+}
+.gray-stars .red-stars {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.gray-stars .red-stars span {
+  color: #337ab7;
+}
+.gray-stars span {
+  padding: 0px 1px 0px 1px;
+  display: inline-block;
+}
+.star-marks-overlay {
+  visibility: hidden;
+  display: inline-block;
+}
+.star-marks {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.prev-page-section {
+  text-align: right;
+  margin-bottom: 10px;
+}
+.prev-page-section .prev-page-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #991c08;
+}
+.portlet .portlet-title {
+  background-color: #cc2409 !important;
+}
+.portlet .portlet-title .caption {
+  font-family: wkpukgul;
+  font-size: 20px;
+  font-weight: normal;
+}
+.portlet .portlet-body .tabbable .nav-tabs {
+  position: relative;
+  top: -51px;
+  margin-right: 10px;
+  overflow: hidden;
+  border-bottom: none;
+}
+.portlet .portlet-body .tabbable .nav-tabs li {
+  float: right;
+  margin-left: 1px;
+}
+.portlet .portlet-body .tabbable .nav-tabs li a {
+  color: #fff;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  line-height: 16px;
+  margin-top: 6px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.portlet .portlet-body .tabbable .nav-tabs li a:hover {
+  color: #333;
+  border-top-color: transparent;
+  background-color: #fff;
+}
+.portlet .portlet-body .tabbable .nav-tabs li.active a {
+  border-top-color: transparent !important;
+  color: #000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.portlet .portlet-body .tabbable .tab-content {
+  padding: 5px;
+  position: relative;
+  top: -21px;
+  font-family: WKLCHBO;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+.portlet .portlet-body .tabbable .tab-content label {
+  font-family: WKLGM;
+}
+.portlet .portlet-body .tabbable .tab-content .summary {
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-left: 5px solid #b2341f;
+  border-bottom: 1px solid #edc8c2;
+  margin-bottom: 25px;
+  box-shadow: 0px 5px 5px #edc8c2;
+}
+.portlet .portlet-body .tabbable .tab-content .summary .event-name {
+  font-weight: bold;
+  background-color: #777;
+  margin-right: 5px;
+}
+.portlet .portlet-body .tabbable .tab-content .summary .client-score {
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+.portlet .portlet-body .tabbable .tab-content .summary .client-score .score-wrap {
+  float: left;
+}
+.portlet .portlet-body .tabbable .tab-content .summary .client-score .score-wrap .gray-stars {
+  font-size: 16px;
+}
+.portlet .portlet-body .tabbable .tab-content .summary .client-score .score-wrap .gray-stars span {
+  float: none;
+}
+.portlet .portlet-body .tabbable .tab-content .summary .client-score .score-wrap:hover .client-score-desc {
+  display: block !important;
+  border: solid 1px #337ab7;
+  position: absolute;
+  left: 40px;
+  border-radius: 4px;
+  padding: 5px 10px;
+  background-color: #ddd;
+  z-index: 999;
+  top: 22px;
+  white-space: nowrap;
+}
+.portlet .portlet-body .tabbable .tab-content .summary .chart {
+  background: #ccc;
+  padding: 5px;
+}
+.portlet .portlet-body .tabbable .tab-content .summary .easy-pie-chart .number {
+  padding-top: 20px;
+  padding-left: 36px;
+  margin-top: 64px;
+  margin-left: 55px;
+  margin-bottom: 55px;
+}
+.portlet .portlet-body .tabbable .tab-content .box-section {
+  padding: 30px;
+  border: 1px solid #d9c3c3;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+}
+.portlet .portlet-body .tabbable .tab-content .box-section .box-header {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #d9c3c3;
+}
+.portlet .portlet-body .tabbable .tab-content .box-section .schedule-item {
+  border-bottom: 1px solid #d9c3c3;
+  padding: 5px;
+}
+.portlet .portlet-body .tabbable .tab-content .box-section .schedule-item .game-date {
+  font-size: 16px;
+  color: #8d1f0d;
+}
+.portlet .portlet-body .tabbable .tab-content .box-section .schedule-item .individual {
+  margin-bottom: 15px;
+}
+.portlet .portlet-body .tabbable .tab-content .box-section .schedule-item .individual .event-name {
+  padding: 5px 8px;
+  font-weight: bold;
+  background-color: #777;
+}
+.portlet .portlet-body .tabbable .tab-content .box-section .schedule-item .individual .detail-view {
+  text-decoration: none;
+  padding: 5px 8px;
+  background: #337ab7;
+  border-radius: 5px;
+  color: #fff;
+}
+.portlet .portlet-body .tabbable .tab-content .box-section .schedule-item .individual .detail-view:hover {
+  background: #17588e;
+  box-shadow: 0px 5px 5px #b1cde5;
+}
+.portlet .portlet-body .tabbable .tab-content .box-section .schedule-item .individual .progress {
+  background: #e1dcdc;
+  margin-bottom: 0px;
+}
+.portlet .portlet-body .tabbable .tab-content .not-found-result {
+  padding: 50px;
+  padding-top: 100px;
+}
+.portlet .portlet-body .tabbable .tab-content .not-found-result .heading {
+  font-size: 20px;
+  font-weight: bold;
+}

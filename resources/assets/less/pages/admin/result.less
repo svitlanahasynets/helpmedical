@@ -1,0 +1,59 @@
+@less: '../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+.container {
+	#edit_result {
+		padding: 20px;
+
+		#calendar {
+			.fc-content {
+
+				.fc-event {
+					cursor: default;
+				}
+
+				table.fc-border-separate {
+					td.fc-day {
+						.fc-day-number {
+							cursor: pointer;
+							background-color: #e74f5b;
+							color: #fff;
+							padding: 5px;
+							border-radius: 8px;
+						}
+						
+					}
+				}
+			}
+		}
+
+		.proxy {
+			display: none;
+		}
+	}
+}
+
+#resultModal {
+	.center {
+		text-align: center;
+	}
+
+	.result-name {
+		label {
+			text-transform: capitalize;
+			color: #428bca;
+			font-weight: bold;
+			font-size: 20px;
+		}
+	}
+
+	tr.progressed {
+		background-color: #96dfd0;
+	}
+}
+
+
+

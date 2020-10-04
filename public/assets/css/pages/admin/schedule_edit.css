@@ -1,0 +1,25 @@
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+a.back {
+  position: absolute;
+  right: 10px;
+  top: 46px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.container #edit_schedule {
+  padding: 20px;
+}
+.container #edit_schedule #calendar .fc-content .fc-event {
+  cursor: default;
+}
+.container #edit_schedule #calendar .fc-content table.fc-border-separate td.fc-day .fc-day-number {
+  cursor: pointer;
+  background-color: #e74f5b;
+  color: #fff;
+  padding: 5px;
+  border-radius: 8px;
+}
+.container #edit_schedule .proxy {
+  display: none;
+}

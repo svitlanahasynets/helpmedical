@@ -1,0 +1,50 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    ####################################################################################
+    #
+    #             CUSTOM RESOURCES
+    #
+    #
+    #--- Avatar
+    RewriteRule ^avatar/([a-z\d_]+)([/\d]+)?$ /res.php?action=1&name=$1&size=$2 [QSA,L]
+
+    #--- Avatar (temp)
+    RewriteRule ^avatar_temp/([a-z\d_]+)([/\d]+)?$ /res.php?action=1&is_temp=1&name=$1&size=$2 [QSA,L]
+    
+    #--- Ticket attachment
+    RewriteRule ^res/ticket/(\d+)/(.+)$ /res.php?action=2&id=$1&name=$2 [QSA,L]
+
+    #--- Ticket Comment attachment
+    RewriteRule ^res/tcomment/(\d+)/(.+)$ /res.php?action=3&id=$1&name=$2 [QSA,L]
+
+    #--- Work diary screenshot
+    RewriteRule ^res/ss/(\d+)/([\da-z_]+)$ /res.php?action=4&cid=$1&datetime=$2 [QSA,L]
+
+    #--- Portfolio screenshot
+    RewriteRule ^portfolio/([a-z\d_]+)/([a-z\d_]+)([/a-z\d]+)?$ /res.php?action=5&name=$1&pt_id=$2&size=$3 [QSA,L]
+
+    #--- Files
+    RewriteRule ^files/(\d+)/(.+)?$ /res.php?action=6&id=$1&name=$2 [QSA,L]
+
+    #
+    #
+    ####################################################################################
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>

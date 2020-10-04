@@ -1,0 +1,61 @@
+@less: '../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+.page-content-wrapper {
+
+	.page-content {
+
+		font-family: 'WKLCHBO';
+
+		.portlet {
+			.detail-view {
+				padding: 5px 8px;
+				background: #337ab7;
+				border-radius: 5px;
+				color: #fff;
+			}
+				
+			.portlet-body.height-180 {
+				padding: 25px;
+				height: 180px;
+
+				#pie_chart {
+					height: 150px;
+					margin-top: -15px;
+				}
+
+				.easy-pie-chart {
+					.number {
+						padding-top: 20px;
+						padding-left: 36px;
+					}
+				}
+
+				.padding-top-20 {
+					padding-top: 20px;
+				}
+
+				.padding-top-30 {
+					padding-top: 30px;
+				}
+			}
+			.portlet-body.height-350 {
+				padding: 25px;
+				height: 350px;
+			}
+
+			#competition_list_table_wrapper {
+				.dataTables_info {
+					float: left;
+				}
+				.dataTables_paginate {
+					width: auto;
+				}
+			}
+		}
+		
+	}
+}

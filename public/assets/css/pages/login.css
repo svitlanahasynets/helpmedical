@@ -1,0 +1,38 @@
+.login-container {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.login-container .logo {
+  text-align: center;
+}
+
+.login-container .main-box {
+  background: rgba(50, 50, 50, 0.3);
+  padding: 30px;
+}
+
+.login-container .main-box .title {
+  text-align: center;
+  font-size: 16px;
+  padding: 0 0 10px 0;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.login-container .main-box .checkbox {
+  padding-left: 20px;
+}
+
+.login-container .main-box .checkbox label {
+  color: #FFF;
+  font-weight: bold;
+}
+
+.login-container .copyright {
+  text-align: center;
+  color: #FFF;
+  padding: 10px 0 0 0;
+}

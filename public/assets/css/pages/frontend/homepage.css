@@ -1,0 +1,235 @@
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+.gray-stars {
+  font-size: 18px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.gray-stars > span {
+  color: #CCC;
+}
+.gray-stars .red-stars {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.gray-stars .red-stars span {
+  color: #337ab7;
+}
+.gray-stars span {
+  padding: 0px 1px 0px 1px;
+  display: inline-block;
+}
+.star-marks-overlay {
+  visibility: hidden;
+  display: inline-block;
+}
+.star-marks {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#search_form {
+  padding: 15px;
+}
+#search_form .clear-filter {
+  font-size: 16px;
+  font-weight: bold;
+  color: #991c08;
+}
+#search_form .input-group {
+  width: 450px;
+  float: right;
+}
+#search_form .input-group #search_btn {
+  background-color: #cc2409;
+}
+#search_form #condition_section .condition-box {
+  background-color: #f7f7f7;
+  border-left: 7px solid #b2341f;
+  border-bottom: 1px solid #edc8c2;
+  margin-bottom: 25px;
+  box-shadow: 0px 5px 5px #edc8c2;
+  -webkit-transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+}
+#search_form #condition_section .condition-box .condition-label {
+  margin: 0px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #7c2415;
+}
+#search_form #condition_section .condition-box .condition-label i {
+  font-size: 22px;
+}
+#search_form #condition_section .condition-box .condition-value {
+  padding: 10px;
+}
+#search_form #condition_section .condition-box .condition-value #date_range {
+  width: 240px;
+}
+#search_form #condition_section .condition-box:hover {
+  background-color: #faf2f2;
+  border-left: 7px solid #a42f1b;
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  box-shadow: 0px 5px 5px #e4afa6;
+}
+#search_form #condition_section .events-view {
+  display: none;
+}
+#search_form .sortby {
+  margin-right: 0px;
+}
+#search_form #result_section .box-section {
+  padding: 15px;
+  border: 1px solid #d9c3c3;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+}
+#search_form #result_section .ordinary-value {
+  font-weight: bold;
+  margin-left: 5px;
+  font-family: 'WKLCHBO';
+}
+#search_form #result_section .client-score {
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+#search_form #result_section .client-score .score-wrap {
+  float: left;
+}
+#search_form #result_section .client-score .score-wrap .gray-stars {
+  font-size: 16px;
+}
+#search_form #result_section .client-score .score-wrap .gray-stars span {
+  float: none;
+}
+#search_form #result_section .client-score .score-wrap:hover .client-score-desc {
+  display: block !important;
+  border: solid 1px #337ab7;
+  position: absolute;
+  left: 40px;
+  border-radius: 4px;
+  padding: 5px 10px;
+  background-color: #ddd;
+  z-index: 999;
+  top: 22px;
+  white-space: nowrap;
+}
+#search_form #result_section #competition_section .competition-item {
+  border-bottom: 1px solid #d9c3c3;
+  padding: 10px;
+  -webkit-transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+}
+#search_form #result_section #competition_section .competition-item .competition-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #337ab7;
+  font-family: 'WKLCHBO';
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+#search_form #result_section #competition_section .competition-item:hover .competition-name {
+  color: #0f548f;
+}
+#search_form #result_section #competition_section .competition-item .competition-content {
+  padding: 10px;
+  padding-left: 25px;
+}
+#search_form #result_section #competition_section .competition-item .competition-content .event-name {
+  font-weight: bold;
+  background-color: #777;
+  margin-right: 5px;
+}
+#search_form #result_section #competition_section .competition-item .competition-content .progress-percent {
+  text-align: center;
+  color: #000;
+}
+#search_form #result_section #competition_section .competition-item .competition-content .wrapper {
+  border: 1px solid #2E6DA4;
+  border-radius: 4px;
+  text-align: center;
+}
+#search_form #result_section #competition_section .competition-item .competition-content .wrapper .competition-progress {
+  border-radius: 0px;
+  background-color: #337AB7;
+  height: 12px;
+}
+#search_form #result_section #schedule_section .schedule-item {
+  position: relative;
+  border-bottom: 1px solid #d9c3c3;
+  padding: 10px;
+  overflow: hidden;
+}
+#search_form #result_section #schedule_section .schedule-item .status {
+  position: absolute;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  background: #337ab7;
+  padding: 0px 25px;
+  left: -12px;
+  top: 2px;
+}
+#search_form #result_section #schedule_section .schedule-item .status span {
+  color: #fff;
+  font-weight: bold;
+}
+#search_form #result_section #schedule_section .schedule-item .schedule-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #337ab7;
+  font-family: 'WKLCHBO';
+  margin-bottom: 10px;
+}
+#search_form #result_section #schedule_section .schedule-item .schedule-content {
+  padding: 10px;
+}
+#search_form #result_section #schedule_section .schedule-item .schedule-content .files {
+  border: 1px solid #d9c3c3;
+  padding: 5px;
+  padding-bottom: 0px;
+}
+#search_form #result_section #schedule_section .schedule-item .schedule-content .files span.photo,
+#search_form #result_section #schedule_section .schedule-item .schedule-content .files span.video {
+  width: 150px;
+  white-space: nowrap;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: block;
+  background: #ddd;
+  padding: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#search_form #result_section #schedule_section .schedule-item .schedule-content .files span.photo video,
+#search_form #result_section #schedule_section .schedule-item .schedule-content .files span.video video {
+  width: 100%;
+}
+#search_form #result_section #schedule_section .schedule-item .schedule-content .files span.badge {
+  position: absolute;
+  font-size: 11px !important;
+  font-weight: 300;
+  top: -5px;
+  right: 5px;
+  padding: 3px 6px 3px 6px;
+  color: white !important;
+  background-color: #337ab7;
+}
+#search_form #result_section .not-found-result {
+  padding: 50px;
+  padding-top: 100px;
+}
+#search_form #result_section .not-found-result .heading {
+  font-size: 20px;
+  font-weight: bold;
+}

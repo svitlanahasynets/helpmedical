@@ -1,0 +1,44 @@
+@less: '../../common';
+
+@import '@{less}/_variables.less';
+@import '@{less}/_mixins.less';
+@import '@{less}/_plugins.less';
+
+a.back {
+	position: absolute;
+    right: 10px;
+    top: 46px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.container {
+	#edit_schedule {
+		padding: 20px;
+
+		#calendar {
+			.fc-content {
+
+				.fc-event {
+					cursor: default;
+				}
+
+				table.fc-border-separate {
+					td.fc-day {
+						.fc-day-number {
+							cursor: pointer;
+							background-color: #e74f5b;
+							color: #fff;
+							padding: 5px;
+							border-radius: 8px;
+						}
+						
+					}
+				}
+			}
+		}
+
+		.proxy {
+			display: none;
+		}
+	}
+}

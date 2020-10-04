@@ -1,0 +1,8 @@
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+#employee_list_table_wrapper .dataTables_info {
+  float: left;
+}
+#employee_list_table_wrapper .dataTables_paginate {
+  width: auto;
+}

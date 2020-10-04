@@ -1,0 +1,39 @@
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+.page-content-wrapper .page-content {
+  font-family: 'WKLCHBO';
+}
+.page-content-wrapper .page-content .portlet .detail-view {
+  padding: 5px 8px;
+  background: #337ab7;
+  border-radius: 5px;
+  color: #fff;
+}
+.page-content-wrapper .page-content .portlet .portlet-body.height-180 {
+  padding: 25px;
+  height: 180px;
+}
+.page-content-wrapper .page-content .portlet .portlet-body.height-180 #pie_chart {
+  height: 150px;
+  margin-top: -15px;
+}
+.page-content-wrapper .page-content .portlet .portlet-body.height-180 .easy-pie-chart .number {
+  padding-top: 20px;
+  padding-left: 36px;
+}
+.page-content-wrapper .page-content .portlet .portlet-body.height-180 .padding-top-20 {
+  padding-top: 20px;
+}
+.page-content-wrapper .page-content .portlet .portlet-body.height-180 .padding-top-30 {
+  padding-top: 30px;
+}
+.page-content-wrapper .page-content .portlet .portlet-body.height-350 {
+  padding: 25px;
+  height: 350px;
+}
+.page-content-wrapper .page-content .portlet #competition_list_table_wrapper .dataTables_info {
+  float: left;
+}
+.page-content-wrapper .page-content .portlet #competition_list_table_wrapper .dataTables_paginate {
+  width: auto;
+}

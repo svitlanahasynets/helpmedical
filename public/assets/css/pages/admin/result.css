@@ -1,0 +1,30 @@
+/** From Metronic material design3 {{{ **/
+/** }}} **/
+.container #edit_result {
+  padding: 20px;
+}
+.container #edit_result #calendar .fc-content .fc-event {
+  cursor: default;
+}
+.container #edit_result #calendar .fc-content table.fc-border-separate td.fc-day .fc-day-number {
+  cursor: pointer;
+  background-color: #e74f5b;
+  color: #fff;
+  padding: 5px;
+  border-radius: 8px;
+}
+.container #edit_result .proxy {
+  display: none;
+}
+#resultModal .center {
+  text-align: center;
+}
+#resultModal .result-name label {
+  text-transform: capitalize;
+  color: #428bca;
+  font-weight: bold;
+  font-size: 20px;
+}
+#resultModal tr.progressed {
+  background-color: #96dfd0;
+}

@@ -1,0 +1,65 @@
+/*--------------------------------------------------
+    [TRANSITION]
+----------------------------------------------------*/
+/* Cubic Bezier Transition */
+/***
+Error Pages
+***/
+/* 404 page option #1 */
+.table-report thead tr th {
+  background: #EEEEEE;
+}
+
+.table-report tbody tr th {
+  background: #EEEEEE;
+}
+
+.table-report tbody tr td {
+  background: #FFFFFF;
+  vertical-align: middle;
+}
+
+.table-balance th {
+  text-align: center;
+}
+
+.table-balance td {
+  text-align: center;
+}
+
+.table-balance .title {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0 0 10px 0;
+}
+
+.table-balance tfoot td {
+  background: #BBB;
+  font-weight: bold;
+}
+
+.table-ticket th {
+  text-align: center;
+  background: #FFF;
+}
+
+.table-ticket td {
+  text-align: center;
+}
+
+.table-ticket .title {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0 0 10px 0;
+}
+
+.table-ticket tfoot td {
+  background: #BBB;
+  font-weight: bold;
+}
+
+.table-ticket .sub-total td {
+  background: #BBB;
+  color: #000;
+  font-weight: bold;
+}
